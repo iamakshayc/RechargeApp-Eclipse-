@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RechargeApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cudialog">Cudialog</string>
+    <string name="itemlist">Services</string>
+    <string name="title_activity_baltrans">Baltrans</string>
+    <string name="title_activity_data_main">DataMainActivity</string>
+    <string name="title_activity_offers">OffersActivity</string>
+
+</resources>

@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rechargeapp.DataMainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Network Name"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/recsize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Code Size"
+        android:inputType="numberSigned"/>
+
+    <EditText
+        android:id="@+id/reccode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Prefix Code"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/balcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Balance Code"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/netbalcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Net Balance Code"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/customer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CustomerCare Num"
+        android:inputType="phone" />
+    </LinearLayout>
+	<LinearLayout
+  android:id="@+id/linear_layout2"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_alignLeft="@+id/linear_layout1"
+  android:layout_below="@+id/linear_layout1"
+  android:layout_centerInParent="true"
+  >
+        <Button
+        android:id="@+id/add"
+        android:layout_width="0dip"
+      android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+        <Button
+        android:id="@+id/modify"
+        android:layout_width="0dip"
+      android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="MODIFY" />
+</LinearLayout>
+<LinearLayout
+  android:id="@+id/linear_layout3"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_alignLeft="@+id/linear_layout2"
+  android:layout_below="@+id/linear_layout2"
+  android:layout_centerInParent="true"
+  >
+        <Button
+        android:id="@+id/view"
+        android:layout_width="0dip"
+      android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="VIEW" />
+        <Button
+        android:id="@+id/viewall"
+        android:layout_width="0dip"
+      android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL" />
+</LinearLayout>
+    
+
+</RelativeLayout>
